@@ -1,0 +1,69 @@
+.aBtn:link, .aBtn:visited {
+    background-color:burlywood;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+.aBtn:hover, .aBtn:active {
+    background-color:coral;
+}
+.aBtn{
+    min-width: 20%;
+}
+
+.aUL{
+    width:100%;
+    text-align:left; 
+    min-width:800px;
+    overflow:hidden;
+}
+
+.aLI{
+    display:inline-block;
+    margin-right: 100px;
+}
+
+body{
+    background-color: bisque;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#catBtn,#itemBtn {
+    background-color: burlywood; /* Green */
+    border: none;
+    color: white;
+    padding: 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#catBtn:hover,#itemBtn:hover{
+    background-color:coral;
+}
+
+#saveBtn {
+    background-color: burlywood; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#saveBtn:hover{
+    background-color:coral;
+}
+
+button{
+    cursor: pointer;
+}
+details{
+    cursor: pointer;
+}

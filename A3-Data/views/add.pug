@@ -1,0 +1,38 @@
+html 
+    head 
+        meta(charset='UTF-8')
+        title Timothys Restaurant Selector
+        script(src='/js/add.js' defer)
+                link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(link rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet")
+        link(rel = "stylesheet" href='/css/add.css') 
+
+body 
+    div.restInfo
+        ul
+            li
+                a(href='/home') Home
+            li 
+                a(href='/addRestaurant') Add Restaurant
+            li
+                a(href='/restaurants') Browse Restaurants
+                
+        table(style='width:50%;text-align:left; min-width:400px;')
+            tr 
+                th Restaurant Name:
+                td 
+                    input(type="text" placeholder = "" style='width:50%')#name
+            tr 
+                th Minimum Order:
+                td 
+                    input(type="text" placeholder = "" style='width:50%')#minorder
+            tr 
+                th Delivery Fee:
+                td 
+                    input(type="text" placeholder = "" style='width:50%')#deliveryFee
+            tr
+                th 
+                    br
+                td
+                    button(type="submit" style='width:50%;')#restBtn Submit

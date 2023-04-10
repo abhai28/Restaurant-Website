@@ -1,0 +1,50 @@
+
+a:link, a:visited {
+    background-color:burlywood;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+  }
+  
+a:hover, a:active {
+    background-color:coral;
+}
+
+body{
+    background-color: bisque;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    width:100%;
+    text-align:left; 
+    min-width:800px;
+    overflow:hidden;
+}
+
+li{
+    display:inline-block;
+    margin-right: 100px;
+}
+
+button {
+    background-color: burlywood; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color:coral;
+}
+
+button{
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+html 
+    head 
+        title Timothys Restaurant Database
+         link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(link rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet")
+        link(rel = "stylesheet" href='/css/restaurants.css') 
+
+body
+    div.restBtns
+        ul
+            li
+                a(href='/home').aBtn Home
+            li 
+                a(href='/addRestaurant').aBtn Add Restaurant
+            li
+                a(href='/restaurants').aBtn Browse Restaurants
+
+    div.restList
+        h1 List of Restaurants 
+        each rest in restaurants 
+            a(href="/restaurants/"+rest.id).restLinks #{rest.name}
+            br
+            br
+            
