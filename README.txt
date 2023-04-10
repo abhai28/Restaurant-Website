@@ -1,4 +1,3 @@
-Name: Abhai Roop Singh Gill
 Instructions on how to run server:
 First run npm init 
 Then make sure you have the dependencies required to run the server, for this server it is pug, and express.
